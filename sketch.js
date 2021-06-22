@@ -61,11 +61,8 @@ function setup() {
    var options={
      setStatic:false
    }
-   polygon = createSprite(100,200,options)
-   polygon.addImage(polygon_img)
-   polygon.scale=0.1
-   World.add(world,polygon)
-
+  polygon=Bodies.circle(50,200,20) 
+  World.add(world,polygon)
   
 
 }
