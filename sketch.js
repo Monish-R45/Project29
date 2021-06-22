@@ -64,7 +64,7 @@ function setup() {
   polygon=Bodies.circle(50,200,20) 
   World.add(world,polygon)
   
-  var sling = new Slingshot(50,200,10,10)
+  var sling = new Slingshot(polygon,{x:50,y:200})
 
 }
 function draw() {
