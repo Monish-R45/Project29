@@ -115,7 +115,7 @@ function draw() {
   block29.display();
   block30.display();
   block31.display();
-  polygon.display();
+  sling.display();
 
 }
 function mouseDragged(){
