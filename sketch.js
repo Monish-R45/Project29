@@ -9,6 +9,7 @@ var stand1,stand2;
 var ball;
 var slingShot;
 var polygon_img, polygon;
+var sling;
 function preload(){
   polygon_img=loadImage("polygon.png");
 }
@@ -64,7 +65,7 @@ function setup() {
   polygon=Bodies.circle(50,200,20) 
   World.add(world,polygon)
   
-  var sling = new Slingshot(polygon,{x:50,y:200})
+  sling = new Slingshot(polygon,{x:50,y:200})
 
 }
 function draw() {
