@@ -117,6 +117,7 @@ function draw() {
   block30.display();
   block31.display();
   sling.display();
+ image(polygon_img ,polygon.position.x,polygon.position.y,40,40);
 
 }
 function mouseDragged(){
