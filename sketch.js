@@ -62,7 +62,7 @@ function setup() {
    var options={
      setStatic:false
    }
-  polygon=Bodies.circle(50,200,20) 
+  polygon=Bodies.circle(50,200,20,options) 
   World.add(world,polygon)
   
   sling = new Slingshot(polygon,{x:50,y:200})
